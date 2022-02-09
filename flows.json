@@ -1,0 +1,1567 @@
+[
+    {
+        "id": "b1fed894c41278be",
+        "type": "tab",
+        "label": "INDEX",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bbf2e6a1153deeb0",
+        "type": "tab",
+        "label": "PK-3000A BOBINAS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1be142a6fa10a9aa",
+        "type": "tab",
+        "label": "PK-3000A DISPLAYS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "882494e12da46156",
+        "type": "tab",
+        "label": "PK-3000A CAIXA",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2ed4a138645edc12",
+        "type": "tab",
+        "label": "PK-3000B BOBINAS",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cbc3d9d186a1c603",
+        "type": "tab",
+        "label": "PK-3000B DISPLAYS ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1de1c09144430c3f",
+        "type": "tab",
+        "label": "PK-3000B CAIXA ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "18414dabba9120ee",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2dd1de6c5670b139",
+        "type": "ui_tab",
+        "name": "Tab",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c32e0d5ee4f42992",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3547ae32419b26dd",
+        "type": "ui_group",
+        "name": "Linha PK-3000A",
+        "tab": "2dd1de6c5670b139",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "76377b587ed7a88a",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "2dd1de6c5670b139",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "74430a42ea240c9f",
+        "type": "websocket-listener",
+        "path": "/teste",
+        "wholemsg": "false"
+    },
+    {
+        "id": "429d9257b9bd5342",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "a7ed8911d256251b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "75e81af4ce3ac98f",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "75e81af4ce3ac98f",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c67103ef681cc94b",
+        "type": "serial-port",
+        "serialport": "/dev/ttyUSB0",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "4f2d27ccbc5c7503",
+        "type": "http in",
+        "z": "b1fed894c41278be",
+        "name": "",
+        "url": "/dashboard",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 380,
+        "y": 300,
+        "wires": [
+            [
+                "062210bb19a836ba"
+            ]
+        ]
+    },
+    {
+        "id": "062210bb19a836ba",
+        "type": "template",
+        "z": "b1fed894c41278be",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n</html lang=\"pt-br\">\n\n<html>\n    <head>\n        <title>Abastecimento de Pallets Envase Drymix</title>\n        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>\n        <style>\n            body {\n                margin: 8px;\n                font-family: 'Montserrat';\n                background-color: #e8e8e8;\n                /* font-size: 22px; */\n            }\n            \n            .title {\n            \n                background-color: #737373;\n                text-align: center;\n                color: #fff;\n                padding-top: 30px;\n                height: 70px;\n            }\n            .title > h1 {\n                         margin: 0; /* Aqui sobrescreve a margem padrão do h1 */\n                     }\n            \n            .dashboard {\n                padding: 0;\n                padding-left: 0px;\n                padding-right: 0px;\n                width: 100%;\n                display: block;\n            }\n            \n            .dashboard h4 {\n                font-size: 20px;\n            }\n            \n            \n            .dashboard-box {\n                float: left;\n                background-color: #DFDFDF;\n                color: #fff;\n                padding: 0px;\n                box-sizing: border-box;\n                height: 80px;\n                width: 16%;\n                text-align: center;\n                border-radius: 15px;\n            }\n            \n            .dashboard-box-name{\n                float: left;\n                padding-left: 50px;\n            \n            }\n            \n            \n            .dashboard-box:nth-child(2){\n                margin-left: 10%;\n                margin-right: 10%;\n            }\n            \n            .dashboard-box:nth-child(3){\n                margin-left: 0%;\n                margin-right: 10%;\n            }\n            \n            /* LINHA 1 */\n            #dashboard-bobinas{\n                background-color: #c2c2c2;\n            }\n            \n            #dashboard-displays{\n                background-color: #c2c2c2;\n            }\n            \n            #dashboard-caixa{\n                background-color: #c2c2c2;  /*  #ff0000  - vermelho  */\n            }\n\n            /* LINHA 2 */            \n            .nav{\n                padding-top: 20px;\n                height: 100px;\n               /* background-color: none;  // #d1d1d1 - cinza*/\n                width: 100%;\n            }\n            \n            .nav-1 {\n                padding-top: 20px;\n                height: 100px;\n               /* background-color: none;*/\n                width: 100%;\n            }\n            \n            .nav-1 #dashboard-bobinas2{\n                background-color: #c2c2c2;\n            }\n            \n            .nav-1 #dashboard-displays2{\n                background-color: #c2c2c2;\n            }\n            \n            .nav-1 #dashboard-caixa2{\n                background-color: #c2c2c2;\n            }\n            \n        </style>\n    </head>\n    <body>\n        <div class=\"title\">\n        <h1><b>MONITORAMENTO DE PALLETS</b></h1>\n        </div>        \n        <div class=\"nav\" id=\"xxx\">\n            <div class=\"container dashboard\">\n                <div class=\"col-4 dashboard-box-name\" id=\"nome-linha\">\n                    <h4>PK-3000 A</h4>\n                </div>\n                <div class=\"col-4 dashboard-box\" id=\"dashboard-bobinas\">\n                    <h4>BOBINAS</h4>\n                </div>\n                <div class=\"col-4 dashboard-box\" id=\"dashboard-displays\">\n                    <h4>DISPLAYS</h4>\n                    \n                </div>\n                <div class=\"col-4 dashboard-box\" id=\"dashboard-caixa\">\n                    <h4>CAIXA</h4>\n                    \n                </div>\n            </div>\n        </div>\n        <div class=\"nav-1\" id=\"yyy\">\n            <div class=\"container dashboard\">\n                <div class=\"col-4 dashboard-box-name\" id=\"nome-linha\">\n                    <h4>PK-3000 B</h4>\n                </div>\n                <div class=\"col-4 dashboard-box\" id=\"dashboard-bobinas2\">\n                    <h4>BOBINAS</h4>\n                </div>\n                <div class=\"col-4 dashboard-box\" id=\"dashboard-displays2\">\n                    <h4>DISPLAYS</h4>\n                    \n                </div>\n                <div class=\"col-4 dashboard-box\" id=\"dashboard-caixa2\">\n                    <h4>CAIXA</h4>\n                   \n                </div>\n            </div>\n        </div>\n        <script>\n            \n            function fazGet(url){\n                let request = new XMLHttpRequest()\n                request.open('GET', url, false)\n                request.send()\n                return request.responseText\n            }\n            \n            function atualiza(){\n                /* Linha 1 */\n                var apiBobina1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-BOBINAS\"));\n                var apiDisplays1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-DISPLAYS\"));\n                var apiCaixa1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-CAIXA\"));\n                \n                /* Linha 2 */\n                var apiBobina2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-BOBINAS\"));\n                var apiDisplays2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-DISPLAYS\"));\n                var apiCaixa2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-CAIXA\"));\n                \n                /*\n                console.log(apiBobina1.val);\n                console.log(apiDisplays1.val);\n                console.log(apiCaixa1.val);\n                console.log(apiBobina2.val);\n                console.log(apiDisplays2.val);\n                console.log(apiCaixa2.val);\n                */\n                /* status BOX */\n                var caixa1 = apiBobina1.val;\n                var caixa2 = apiDisplays1.val;\n                var caixa33 = apiCaixa1.val;\n                var caixa4 = apiBobina2.val;\n                var caixa5 = apiDisplays2.val;\n                var caixa66 = apiCaixa2.val;\n                \n                console.log(caixa1);\n                console.log(caixa2);\n                console.log(caixa33);\n                console.log(caixa4);\n                console.log(caixa5);\n                console.log(caixa66);\n    \n                /* Linha 2 */ \n    \n                if(caixa1 == 1 || caixa2 == 1 || caixa33 == 1){\n                    let linha = document.getElementById('xxx');\n                    linha.style.cssText = 'background-color: #d1d1d1'               \n                } else {\n                    let linha = document.getElementById('xxx');\n                    linha.style.cssText = 'background-color: #e8e8e8'\n                }\n                \n                if(caixa1 == 1){\n                    let box1 = document.getElementById('dashboard-bobinas');\n                    box1.style.cssText = 'background-color: #ff0000'\n                } else {\n                    let box1 = document.getElementById('dashboard-bobinas');\n                    box1.style.cssText = 'background-color: #c2c2c2'\n                }\n    \n                if(caixa2 == 1){\n                    let box2 = document.getElementById('dashboard-displays');\n                    box2.style.cssText = 'background-color: #ff0000'\n                } else {\n                    let box2 = document.getElementById('dashboard-displays');\n                    box2.style.cssText = 'background-color: #c2c2c2'\n                }\n    \n                if(caixa33 == 1){\n                    let box3 = document.getElementById('dashboard-caixa');\n                    box3.style.cssText = 'background-color: #ff0000'\n                } else {\n                    let box3 = document.getElementById('dashboard-caixa');\n                    box3.style.cssText = 'background-color: #c2c2c2'\n                }\n    \n    \n                /* Linha 2 */ \n    \n                if(caixa4 == 1 || caixa5 == 1 || caixa66 == 1){\n                    let linha2 = document.getElementById('yyy');\n                    linha2.style.cssText = 'background-color: #d1d1d1'             \n                } else {\n                    let linha2 = document.getElementById('yyy');\n                    linha2.style.cssText = 'background-color: #e8e8e8'\n                }           \n    \n                if(caixa4 == 1){\n                    let box4 = document.getElementById('dashboard-bobinas2');\n                    box4.style.cssText = 'background-color: #ff0000'\n                } else {\n                    let box4 = document.getElementById('dashboard-bobinas2');\n                    box4.style.cssText = 'background-color: #c2c2c2'\n                }\n    \n                if(caixa5 == 1){\n                    let box5 = document.getElementById('dashboard-displays2');\n                    box5.style.cssText = 'background-color: #ff0000'\n                } else {\n                    let box5 = document.getElementById('dashboard-displays2');\n                    box5.style.cssText = 'background-color: #c2c2c2'\n                }\n    \n                if(caixa66 == 1){\n                    let box6 = document.getElementById('dashboard-caixa2');\n                    box6.style.cssText = 'background-color: #ff0000'\n                } else {\n                    let box6 = document.getElementById('dashboard-caixa2');\n                    box6.style.cssText = 'background-color: #c2c2c2'\n                }\n            }\n            /*atualiza()*/\n            setInterval(atualiza, 1000);\n            \n            \n        </script>\n    </body>\n</html>\n\n\n\n\n\n\n<script>\n/*#################################################################################*/\n</script>\n\n\n<script>\n/*\nfunction fazGet(url){\n    let request = new XMLHttpRequest()\n    request.open('GET', url, false)\n    request.send()\n    return request.responseText\n}\n\n\nvar bobina1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-BOBINAS\"));\nvar displays1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-DISPLAYS\"));\nvar caixa1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-CAIXA\"));\nvar bobina2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-BOBINAS\"));\nvar displays2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-DISPLAYS\"));\nvar caixa2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-CAIXA\"));\n\nconsole.log(bobina1.val);\nconsole.log(displays1.val);\nconsole.log(caixa1.val);\nconsole.log(bobina2.val);\nconsole.log(displays2.val);\nconsole.log(caixa2.val);\n\n\nfunction atualiza(){\n\nvar bobina1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-BOBINAS\"));\nvar displays1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-DISPLAYS\"));\nvar caixa1 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000A-CAIXA\"));\n\n\nvar bobina2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-BOBINAS\"));\nvar displays2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-DISPLAYS\"));\nvar caixa2 = JSON.parse(fazGet(\"http://127.0.0.1:1880/PK-3000B-CAIXA\"));\n\n\nconsole.log(typeof bobina1.val);\nconsole.log(displays1.val);\nconsole.log(caixa1.val);\nconsole.log(bobina2.val);\nconsole.log(displays2.val);\nconsole.log(caixa2.val);\n}\n\nsetInterval(atualiza, 1000);\n\n*/\n</script>",
+        "output": "str",
+        "x": 560,
+        "y": 300,
+        "wires": [
+            [
+                "3c3a828cbd93b781"
+            ]
+        ]
+    },
+    {
+        "id": "3c3a828cbd93b781",
+        "type": "http response",
+        "z": "b1fed894c41278be",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e3c1dd3182b204b0",
+        "type": "http in",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "url": "/PK-3000A-BOBINAS",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "73dce97173578198"
+            ]
+        ]
+    },
+    {
+        "id": "4e6b2898584822e1",
+        "type": "http response",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1010,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "4d78352035a760d0",
+        "type": "template",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"PK-3000A BOBINAS\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "cb025eb0d5863548"
+            ]
+        ]
+    },
+    {
+        "id": "e2acc5d1ae9aeff3",
+        "type": "debug",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "cb025eb0d5863548",
+        "type": "json",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "4e6b2898584822e1",
+                "e2acc5d1ae9aeff3"
+            ]
+        ]
+    },
+    {
+        "id": "73dce97173578198",
+        "type": "change",
+        "z": "bbf2e6a1153deeb0",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "4d78352035a760d0"
+            ]
+        ]
+    },
+    {
+        "id": "37d23503ba35426c",
+        "type": "comment",
+        "z": "bbf2e6a1153deeb0",
+        "name": "PK-3000A BOBINAS",
+        "info": "",
+        "x": 230,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "b76e2725e8b67462",
+        "type": "function",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[0] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "fa183aa850d44001"
+            ]
+        ]
+    },
+    {
+        "id": "f904de2f7fed7b83",
+        "type": "serial in",
+        "z": "bbf2e6a1153deeb0",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "b76e2725e8b67462"
+            ]
+        ]
+    },
+    {
+        "id": "fa183aa850d44001",
+        "type": "change",
+        "z": "bbf2e6a1153deeb0",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fad058e2a6c06363",
+        "type": "http in",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "url": "/PK-3000A-DISPLAYS",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 340,
+        "wires": [
+            [
+                "64b87e66377f8428"
+            ]
+        ]
+    },
+    {
+        "id": "24d7262834242638",
+        "type": "http response",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1010,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f039d2d2bfa7ed15",
+        "type": "template",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"PK-3000A BOBINAS\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "213084ac91a58363"
+            ]
+        ]
+    },
+    {
+        "id": "917de795e4147128",
+        "type": "debug",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "213084ac91a58363",
+        "type": "json",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "24d7262834242638",
+                "917de795e4147128"
+            ]
+        ]
+    },
+    {
+        "id": "64b87e66377f8428",
+        "type": "change",
+        "z": "1be142a6fa10a9aa",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "f039d2d2bfa7ed15"
+            ]
+        ]
+    },
+    {
+        "id": "2d2acf080abe0b8a",
+        "type": "comment",
+        "z": "1be142a6fa10a9aa",
+        "name": "PK-3000A DISPLAYS",
+        "info": "",
+        "x": 240,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "e0bb6138072e0ad1",
+        "type": "function",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[1] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "05bbf5105db2c0ab"
+            ]
+        ]
+    },
+    {
+        "id": "906849737c817f80",
+        "type": "serial in",
+        "z": "1be142a6fa10a9aa",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "e0bb6138072e0ad1"
+            ]
+        ]
+    },
+    {
+        "id": "05bbf5105db2c0ab",
+        "type": "change",
+        "z": "1be142a6fa10a9aa",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1542288d9eadbbd5",
+        "type": "http in",
+        "z": "882494e12da46156",
+        "name": "",
+        "url": "/PK-3000A-CAIXA",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 340,
+        "wires": [
+            [
+                "2a74d636f834b7de"
+            ]
+        ]
+    },
+    {
+        "id": "2930fb3f96d5e8d1",
+        "type": "http response",
+        "z": "882494e12da46156",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1010,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "076b036b85b5fd32",
+        "type": "template",
+        "z": "882494e12da46156",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"PK-3000A CAIXA\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "bace569d646a0e78"
+            ]
+        ]
+    },
+    {
+        "id": "9becff547efc1a74",
+        "type": "debug",
+        "z": "882494e12da46156",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "bace569d646a0e78",
+        "type": "json",
+        "z": "882494e12da46156",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "2930fb3f96d5e8d1",
+                "9becff547efc1a74"
+            ]
+        ]
+    },
+    {
+        "id": "fed738f076a7ffbf",
+        "type": "http in",
+        "z": "882494e12da46156",
+        "name": "",
+        "url": "/dashboard",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 740,
+        "wires": [
+            [
+                "f0ffe6a76181f55e"
+            ]
+        ]
+    },
+    {
+        "id": "f0ffe6a76181f55e",
+        "type": "template",
+        "z": "882494e12da46156",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<script>\nfunction fazGet(url){\n    let request = new XMLHttpRequest()\n    request.open('GET', url, false)\n    request.send()\n    return request.responseText\n}\nconsole.log(fazGet(\"http://127.0.0.1:1880/PK-3000A-DISPLAYS\"))\n</script>",
+        "output": "str",
+        "x": 440,
+        "y": 740,
+        "wires": [
+            [
+                "e118e4db4ecf294c"
+            ]
+        ]
+    },
+    {
+        "id": "e118e4db4ecf294c",
+        "type": "http response",
+        "z": "882494e12da46156",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2a74d636f834b7de",
+        "type": "change",
+        "z": "882494e12da46156",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "076b036b85b5fd32"
+            ]
+        ]
+    },
+    {
+        "id": "d0b63b9670eed271",
+        "type": "comment",
+        "z": "882494e12da46156",
+        "name": "PK-3000A CAIXA",
+        "info": "",
+        "x": 220,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "daae3c2151585c85",
+        "type": "function",
+        "z": "882494e12da46156",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[2] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "8e5786a8f43d2e00"
+            ]
+        ]
+    },
+    {
+        "id": "b813948467111ac1",
+        "type": "serial in",
+        "z": "882494e12da46156",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "daae3c2151585c85"
+            ]
+        ]
+    },
+    {
+        "id": "8e5786a8f43d2e00",
+        "type": "change",
+        "z": "882494e12da46156",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9495a2397e8b1157",
+        "type": "http in",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "url": "/PK-3000B-BOBINAS",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "38b25f8e06e47f65"
+            ]
+        ]
+    },
+    {
+        "id": "7147ae1fc39916b8",
+        "type": "http response",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1010,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "6a4fc96250d7b26a",
+        "type": "template",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"PK-3000B BOBINAS\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "2ca24363c67afa87"
+            ]
+        ]
+    },
+    {
+        "id": "9e6232e383c2ce9e",
+        "type": "debug",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2ca24363c67afa87",
+        "type": "json",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "7147ae1fc39916b8",
+                "9e6232e383c2ce9e"
+            ]
+        ]
+    },
+    {
+        "id": "38b25f8e06e47f65",
+        "type": "change",
+        "z": "2ed4a138645edc12",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "6a4fc96250d7b26a"
+            ]
+        ]
+    },
+    {
+        "id": "ab308de81c4e4527",
+        "type": "comment",
+        "z": "2ed4a138645edc12",
+        "name": "PK-3000B BOBINAS ",
+        "info": "",
+        "x": 230,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1c04d708f311f5af",
+        "type": "function",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[3] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "6ea355c6a7a16516"
+            ]
+        ]
+    },
+    {
+        "id": "6691651a7d7d907e",
+        "type": "serial in",
+        "z": "2ed4a138645edc12",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "1c04d708f311f5af"
+            ]
+        ]
+    },
+    {
+        "id": "6ea355c6a7a16516",
+        "type": "change",
+        "z": "2ed4a138645edc12",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3262be7477abab2",
+        "type": "http in",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "url": "/PK-3000B-DISPLAYS",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "54e01d6d28d9c497"
+            ]
+        ]
+    },
+    {
+        "id": "8cad77cc9e5c258b",
+        "type": "http response",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1030,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8b98f5eeb6e10cf8",
+        "type": "template",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"PK-3000B BOBINAS\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 640,
+        "y": 340,
+        "wires": [
+            [
+                "ce55e2380c35a75b"
+            ]
+        ]
+    },
+    {
+        "id": "f370a7c5d5c0878c",
+        "type": "debug",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ce55e2380c35a75b",
+        "type": "json",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 810,
+        "y": 340,
+        "wires": [
+            [
+                "8cad77cc9e5c258b",
+                "f370a7c5d5c0878c"
+            ]
+        ]
+    },
+    {
+        "id": "54e01d6d28d9c497",
+        "type": "change",
+        "z": "cbc3d9d186a1c603",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "8b98f5eeb6e10cf8"
+            ]
+        ]
+    },
+    {
+        "id": "b7a8d832a6872df2",
+        "type": "comment",
+        "z": "cbc3d9d186a1c603",
+        "name": "PK-3000B DISPLAYS ",
+        "info": "",
+        "x": 260,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4e1f4bba36a2c13c",
+        "type": "function",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[4] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 220,
+        "wires": [
+            [
+                "c88cc8ae5d9423af"
+            ]
+        ]
+    },
+    {
+        "id": "fa1c74a0acb89ae0",
+        "type": "serial in",
+        "z": "cbc3d9d186a1c603",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "4e1f4bba36a2c13c"
+            ]
+        ]
+    },
+    {
+        "id": "c88cc8ae5d9423af",
+        "type": "change",
+        "z": "cbc3d9d186a1c603",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de031ab87328d3c9",
+        "type": "http in",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "url": "/PK-3000B-CAIXA",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 340,
+        "wires": [
+            [
+                "f0b1799c2ea48cd3"
+            ]
+        ]
+    },
+    {
+        "id": "0930e2e0ade4d997",
+        "type": "http response",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 1010,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "83c43bb513244c78",
+        "type": "template",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"PK-3000B CAIXA\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "4699303e333e0505"
+            ]
+        ]
+    },
+    {
+        "id": "d0f952878d102264",
+        "type": "debug",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "4699303e333e0505",
+        "type": "json",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 340,
+        "wires": [
+            [
+                "0930e2e0ade4d997",
+                "d0f952878d102264"
+            ]
+        ]
+    },
+    {
+        "id": "f0b1799c2ea48cd3",
+        "type": "change",
+        "z": "1de1c09144430c3f",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "83c43bb513244c78"
+            ]
+        ]
+    },
+    {
+        "id": "07f2877c2f1fb5f7",
+        "type": "comment",
+        "z": "1de1c09144430c3f",
+        "name": "PK-3000B CAIXA ",
+        "info": "",
+        "x": 220,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c471e0d00c5f4599",
+        "type": "function",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[5] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "b5f9238be7e3759c"
+            ]
+        ]
+    },
+    {
+        "id": "7c0dd47929713052",
+        "type": "serial in",
+        "z": "1de1c09144430c3f",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "c471e0d00c5f4599"
+            ]
+        ]
+    },
+    {
+        "id": "b5f9238be7e3759c",
+        "type": "change",
+        "z": "1de1c09144430c3f",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f14ca78df2bdbfb",
+        "type": "debug",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7f3c3c7644a958c1",
+        "type": "function",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "func": "var outputMsgs = [];\nremovespace = msg.payload.trim();\nvar words = removespace.split(\" \");\nfor (var w in words) {\n    outputMsgs.push({payload: parseInt(words[w])});\n}\n\n/*\nlet obj = { \n    valor_1 : outputMsgs[0],\n    valor_1 : outputMsgs[1],\n    valor_1 : outputMsgs[2],\n    valor_1 : outputMsgs[3],\n    valor_1 : outputMsgs[4],\n    valor_1 : outputMsgs[5],\n};\n\nreturn obj;\n*/\nreturn [ outputMsgs[0] ];\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "a15f52069b12502f"
+            ]
+        ]
+    },
+    {
+        "id": "62dae8202dd69f3f",
+        "type": "serial in",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "serial": "c67103ef681cc94b",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "7f3c3c7644a958c1"
+            ]
+        ]
+    },
+    {
+        "id": "a15f52069b12502f",
+        "type": "change",
+        "z": "18414dabba9120ee",
+        "name": "armazenar ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b99e3210437500f5",
+        "type": "change",
+        "z": "18414dabba9120ee",
+        "name": "recuperar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "23e5c7cb632ab162"
+            ]
+        ]
+    },
+    {
+        "id": "6f1fa09776290a3f",
+        "type": "http response",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 870,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "856e919e53049d14",
+        "type": "http in",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "url": "/txrx",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "b99e3210437500f5"
+            ]
+        ]
+    },
+    {
+        "id": "23e5c7cb632ab162",
+        "type": "template",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{\n    \"Nome\": \"TESTE - RXTX\",\n    \"val\": {{payload}}\n}",
+        "output": "str",
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "fcf662167c288495"
+            ]
+        ]
+    },
+    {
+        "id": "fcf662167c288495",
+        "type": "json",
+        "z": "18414dabba9120ee",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "6f1fa09776290a3f",
+                "7f14ca78df2bdbfb"
+            ]
+        ]
+    }
+]
